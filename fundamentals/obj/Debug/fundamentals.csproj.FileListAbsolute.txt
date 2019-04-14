@@ -1,0 +1,7 @@
+C:\Users\Mukuruku\Desktop\C#\fundamentals\fundamentals\fundamentals\bin\Debug\fundamentals.exe.config
+C:\Users\Mukuruku\Desktop\C#\fundamentals\fundamentals\fundamentals\bin\Debug\fundamentals.exe
+C:\Users\Mukuruku\Desktop\C#\fundamentals\fundamentals\fundamentals\bin\Debug\fundamentals.pdb
+C:\Users\Mukuruku\Desktop\C#\fundamentals\fundamentals\fundamentals\obj\Debug\fundamentals.csprojAssemblyReference.cache
+C:\Users\Mukuruku\Desktop\C#\fundamentals\fundamentals\fundamentals\obj\Debug\fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\Mukuruku\Desktop\C#\fundamentals\fundamentals\fundamentals\obj\Debug\fundamentals.exe
+C:\Users\Mukuruku\Desktop\C#\fundamentals\fundamentals\fundamentals\obj\Debug\fundamentals.pdb
