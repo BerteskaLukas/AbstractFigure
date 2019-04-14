@@ -21,16 +21,14 @@ namespace fundamentals
             EquilateralTriangle eTri = new EquilateralTriangle(6);
             IsosalesTriangle iTri = new IsosalesTriangle(30, 5);
             Quadrilateral Q = new Quadrilateral(25,9,13,75,7,8);
-            Triangle oneTri = new Triangle(25, 9, 13);
-            Triangle twoTri = new Triangle(75, 7, 8);
+            Square sQ = new Square(5);
 
             Console.WriteLine(tri.ToString());
             Console.WriteLine(rTri.ToString());
             Console.WriteLine(eTri.ToString());
             Console.WriteLine(iTri.ToString());
             Console.WriteLine(Q.ToString());
-            Console.WriteLine(oneTri.ToString());
-            Console.WriteLine(twoTri.ToString());
+            Console.WriteLine(sQ.ToString());
 
 
             Console.ReadKey();

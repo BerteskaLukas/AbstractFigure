@@ -10,7 +10,7 @@ namespace fundamentals
     {
         public Rectangel()
         {
-            Console.WriteLine("Created Rectangel");
+           
         }
 
         

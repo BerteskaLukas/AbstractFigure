@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace fundamentals
 {
-    public class Square:Rectangel
+    public class Square:Quadrilateral
     {
-        public Square()
+        public Square(double edge):base(edge)
         {
-            Console.WriteLine("Square");
+            
         }
-        //destructorius istrinti klases objektui 
+        
        
     }
 }
