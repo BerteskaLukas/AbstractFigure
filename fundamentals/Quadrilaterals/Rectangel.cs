@@ -8,7 +8,8 @@ namespace fundamentals
 {
     public class Rectangel:Quadrilateral
     {
-        public Rectangel()
+        public Rectangel(double edgeBefore, double edgeAfter)
+            :base(edgeBefore, edgeAfter)
         {
            
         }

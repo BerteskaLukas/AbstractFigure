@@ -46,16 +46,17 @@
     <Compile Include="AbstractFigure.cs" />
     <Compile Include="AnglePoint.cs" />
     <Compile Include="Circle.cs" />
+    <Compile Include="Quadrilaterals\Rhombus.cs" />
     <Compile Include="Triangles\EquilateralTriangle.cs" />
     <Compile Include="FormulaLibrary.cs" />
     <Compile Include="Triangles\IsosalesTriangle.cs" />
-    <Compile Include="Quadrilateral\Parallelogram.cs" />
+    <Compile Include="Quadrilaterals\Parallelogram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quadrilateral\Quadrilateral.cs" />
-    <Compile Include="Quadrilateral\Rectangel.cs" />
+    <Compile Include="Quadrilaterals\Quadrilateral.cs" />
+    <Compile Include="Quadrilaterals\Rectangel.cs" />
     <Compile Include="Triangles\RightTriangle.cs" />
-    <Compile Include="Quadrilateral\Square.cs" />
+    <Compile Include="Quadrilaterals\Square.cs" />
     <Compile Include="Triangles\Triangle.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,11 +8,11 @@ namespace fundamentals
 {
     public class Quadrilateral : AbstractFigure
     {
-        private readonly AnglePoint[] anglePoints;
+        protected AnglePoint[] anglePoints;
 
         public Quadrilateral()
         {
-            anglePoints = new AnglePoint[4];
+             anglePoints = new AnglePoint[4];
         }
 
         public Quadrilateral(double angle, double edgeBefore, double edgeAfter,
@@ -33,13 +33,19 @@ namespace fundamentals
             anglePoints[2] = new AnglePoint(90, edge, edge);
             anglePoints[3] = new AnglePoint(90, edge, edge);
         }
-        public Quadrilateral(double edgeBefore,  double edgeAfter) : this()
+        public Quadrilateral(double edgeBefore,  double edgeAfter) : this()  // Rectangel constructor 
         {
             anglePoints[0] = new AnglePoint(90, edgeBefore, edgeAfter);
             anglePoints[1] = new AnglePoint(90, edgeAfter, edgeBefore);
             anglePoints[2] = new AnglePoint(90, edgeBefore, edgeAfter);
             anglePoints[3] = new AnglePoint(90, edgeAfter, edgeBefore);
         }
+        public Quadrilateral(double angle, double edgeBefore, double edgeAfter):this()//  Parallelogram constructor 
+        {
+            anglePoints[0]= anglePoints[2] = new AnglePoint(angle, edgeBefore, edgeAfter);
+            anglePoints[1] = anglePoints[3] = new AnglePoint((360-2*angle)/2, edgeAfter, edgeBefore);
+        }
+        
 
 
 

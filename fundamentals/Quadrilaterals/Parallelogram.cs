@@ -8,9 +8,10 @@ namespace fundamentals
 {
     public class Parallelogram:Quadrilateral
     {
-        public Parallelogram()
+        public Parallelogram(double angle, double edgeBefore, double edgeAfter)
+            :base(angle, edgeBefore, edgeAfter)
         {
-            Console.WriteLine("Created Parallelogram");
+            
         }
         
     }
